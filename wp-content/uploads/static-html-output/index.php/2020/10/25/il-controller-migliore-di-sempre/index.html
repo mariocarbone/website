@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	<title>Il controller migliore di sempre &ndash; Mario Carbone</title>
+
+
+<link rel="alternate" type="application/rss+xml" title="Mario Carbone &raquo; Feed" href="http://mariocarbone.net/index.php/feed/">
+<link rel="alternate" type="application/rss+xml" title="Mario Carbone &raquo; Feed dei commenti" href="http://mariocarbone.net/index.php/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Mario Carbone &raquo; Il controller migliore di sempre Feed dei commenti" href="http://mariocarbone.net/index.php/2020/10/25/il-controller-migliore-di-sempre/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="http://mariocarbone.net/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1" media="all">
+<link rel="stylesheet" id="hfe-style-css" href="http://mariocarbone.net/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.5.3" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.12" media="all">
+<link rel="stylesheet" id="elementor-frontend-legacy-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.12" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.12" media="all">
+<link rel="stylesheet" id="elementor-post-1-css" href="http://mariocarbone.net/wp-content/uploads/elementor/css/post-1.css?ver=1603652392" media="all">
+<link rel="stylesheet" id="she-header-style-css" href="http://mariocarbone.net/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.4.3" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="http://mariocarbone.net/wp-content/uploads/elementor/css/global.css?ver=1603652392" media="all">
+<link rel="stylesheet" id="elementor-post-9-css" href="http://mariocarbone.net/wp-content/uploads/elementor/css/post-9.css?ver=1603652392" media="all">
+<link rel="stylesheet" id="hfe-widgets-style-css" href="http://mariocarbone.net/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.5.3" media="all">
+<link rel="stylesheet" id="elementor-post-114-css" href="http://mariocarbone.net/wp-content/uploads/elementor/css/post-114.css?ver=1603652892" media="all">
+<link rel="stylesheet" id="twentytwenty-style-css" href="http://mariocarbone.net/wp-content/themes/twentytwenty/style.css?ver=1.5" media="all">
+<style id="twentytwenty-style-inline-css">
+.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #cd2653; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #cd2653; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #cd2653; }.fill-children-accent,.fill-children-accent * { fill: #cd2653; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dcd7ca; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dcd7ca; }.wp-block-table.is-style-stripes { border-bottom-color: #dcd7ca; }.wp-block-latest-posts.is-grid li { border-top-color: #dcd7ca; }:root .has-subtle-background-color { color: #dcd7ca; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #cd2653; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #cd2653; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #6d6d6d; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #dcd7ca; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #dcd7ca; }
+</style>
+<link rel="stylesheet" id="twentytwenty-print-style-css" href="http://mariocarbone.net/wp-content/themes/twentytwenty/print.css?ver=1.5" media="print">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Archivo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.5.1" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-regular-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.12.0" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.12.0" media="all">
+<script src="http://mariocarbone.net/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp" id="jquery-core-js"></script>
+<script src="http://mariocarbone.net/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.js?ver=2.1.1" id="stickyAnythingLib-js"></script>
+<script src="http://mariocarbone.net/wp-content/themes/twentytwenty/assets/js/index.js?ver=1.5" id="twentytwenty-js-js" async></script>
+<script src="http://mariocarbone.net/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.4.3" id="she-header-js"></script>
+<link rel="alternate" type="application/json" href="http://mariocarbone.net/index.php/wp-json/wp/v2/posts/70">
+<link rel="prev" title="Ciao mondo!" href="http://mariocarbone.net/index.php/2020/10/25/ciao-mondo/">
+<link rel="next" title="Produttivit&aacute; consigli" href="http://mariocarbone.net/index.php/2020/10/25/produttivita-consigli/">
+
+<link rel="canonical" href="http://mariocarbone.net/index.php/2020/10/25/il-controller-migliore-di-sempre/">
+
+<link rel="alternate" type="application/json+oembed" href="http://mariocarbone.net/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmariocarbone.net%2Findex.php%2F2020%2F10%2F25%2Fil-controller-migliore-di-sempre%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://mariocarbone.net/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmariocarbone.net%2Findex.php%2F2020%2F10%2F25%2Fil-controller-migliore-di-sempre%2F&amp;format=xml">
+	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="http://mariocarbone.net/wp-content/uploads/2020/10/cropped-2-COLORS-1-1-32x32.png" sizes="32x32">
+<link rel="icon" href="http://mariocarbone.net/wp-content/uploads/2020/10/cropped-2-COLORS-1-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="http://mariocarbone.net/wp-content/uploads/2020/10/cropped-2-COLORS-1-1-180x180.png">
+<meta name="msapplication-TileImage" content="http://mariocarbone.net/wp-content/uploads/2020/10/cropped-2-COLORS-1-1-270x270.png">
+</head>
+
+<body class="post-template-default single single-post postid-70 single-format-standard wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwenty ehf-stylesheet-twentytwenty singular enable-search-modal has-post-thumbnail has-single-pagination showing-comments show-avatars footer-top-visible elementor-default elementor-kit-1">
+<a class="skip-link screen-reader-text" href="#site-content">Salta al contenuto</a><div id="page" class="hfeed site">
+
+		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="http://mariocarbone.net" title="Mario Carbone" rel="home">Mario Carbone</a></p>
+					<div data-elementor-type="wp-post" data-elementor-id="9" class="elementor elementor-9" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<header class="elementor-section elementor-top-section elementor-element elementor-element-13776f2 she-header-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13776f2" data-element_type="section" data-settings='{"transparent":"yes","custom_height_header":{"unit":"px","size":45,"sizes":[]},"shrink_header":"yes","blur_bg":"yes","transparent_on":["desktop","tablet","mobile"],"scroll_distance":{"unit":"px","size":60,"sizes":[]},"scroll_distance_tablet":{"unit":"px","size":"","sizes":[]},"scroll_distance_mobile":{"unit":"px","size":"","sizes":[]},"custom_height_header_tablet":{"unit":"px","size":"","sizes":[]},"custom_height_header_mobile":{"unit":"px","size":"","sizes":[]}}'>
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8f588eb" data-id="8f588eb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c3416e4 elementor-widget elementor-widget-image" data-id="c3416e4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="http://mariocarbone.net/">
+							<img src="http://mariocarbone.net/wp-content/uploads/elementor/thumbs/2-COLORS-1-e1603648957875-oxg4k3e0landqfbqc56i66i8d55pm3gbw8qqevzdaw.png" title="mc logo" alt="mc logo" class="elementor-animation-grow">								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-352024d" data-id="352024d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-69b5d4f hfe-nav-menu__align-right hfe-submenu-animation-slide_up hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu" data-id="69b5d4f" data-element_type="widget" data-widget_type="navigation-menu.default">
+				<div class="elementor-widget-container">
+						<div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__text hfe-animation__grow" data-layout="horizontal">
+				<div class="hfe-nav-menu__toggle elementor-clickable">
+					<div class="hfe-nav-menu-icon">
+						<i aria-hidden="true" tabindex="0" class="fas fa-bars"></i>					</div>
+				</div>
+				<nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;' data-close-icon='&lt;i aria-hidden="true" tabindex="0" class="far fa-window-close"&gt;&lt;/i&gt;' data-full-width=""><ul id="menu-1-69b5d4f" class="hfe-nav-menu"><li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home parent hfe-creative-menu"><a href="http://mariocarbone.net/" class="hfe-menu-item">Home</a></li>
+<li id="menu-item-187" class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu"><a href="http://mariocarbone.net/blog" class="hfe-menu-item">Blog</a></li>
+<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="http://mariocarbone.net/index.php/chi-sono/" class="hfe-menu-item">Chi Sono</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu"><a href="http://xiao" class="hfe-menu-item">Contatti</a></li>
+</ul></nav>              
+			</div>
+					</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5c711f1 elementor-hidden-tablet elementor-hidden-phone" data-id="5c711f1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d8d6af7 elementor-hidden-tablet elementor-hidden-phone elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="d8d6af7" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-pulse-shrink elementor-repeater-item-e1b0fed" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-pulse-shrink elementor-repeater-item-6656f6b" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-pulse-shrink elementor-repeater-item-049d030" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</header>
+						</div>
+						</div>
+					</div>
+				</header>
+
+	
+<main id="site-content" role="main">
+
+	
+<article class="post-70 post type-post status-publish format-standard has-post-thumbnail hentry category-senza-categoria" id="post-70">
+
+	
+<header class="entry-header has-text-align-center header-footer-group">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categorie</span>
+				<div class="entry-categories-inner">
+					<a href="http://mariocarbone.net/index.php/category/senza-categoria/" rel="category tag">Senza categoria</a>				</div>
+			</div>
+
+			<h1 class="entry-title">Il controller migliore di sempre</h1>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">Autore articolo</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewbox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							Di <a href="http://mariocarbone.net/index.php/author/admin/">admin</a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">Data dell'articolo</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewbox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="http://mariocarbone.net/index.php/2020/10/25/il-controller-migliore-di-sempre/">25 Ottobre 2020</a>
+						</span>
+					</li>
+										<li class="post-comment-link meta-wrapper">
+						<span class="meta-icon">
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewbox="0 0 19 19"><path d="M9.43016863,13.2235931 C9.58624731,13.094699 9.7823475,13.0241935 9.98476849,13.0241935 L15.0564516,13.0241935 C15.8581553,13.0241935 16.5080645,12.3742843 16.5080645,11.5725806 L16.5080645,3.44354839 C16.5080645,2.64184472 15.8581553,1.99193548 15.0564516,1.99193548 L3.44354839,1.99193548 C2.64184472,1.99193548 1.99193548,2.64184472 1.99193548,3.44354839 L1.99193548,11.5725806 C1.99193548,12.3742843 2.64184472,13.0241935 3.44354839,13.0241935 L5.76612903,13.0241935 C6.24715123,13.0241935 6.63709677,13.4141391 6.63709677,13.8951613 L6.63709677,15.5301903 L9.43016863,13.2235931 Z M3.44354839,14.766129 C1.67980032,14.766129 0.25,13.3363287 0.25,11.5725806 L0.25,3.44354839 C0.25,1.67980032 1.67980032,0.25 3.44354839,0.25 L15.0564516,0.25 C16.8201997,0.25 18.25,1.67980032 18.25,3.44354839 L18.25,11.5725806 C18.25,13.3363287 16.8201997,14.766129 15.0564516,14.766129 L10.2979143,14.766129 L6.32072889,18.0506004 C5.75274472,18.5196577 4.89516129,18.1156602 4.89516129,17.3790323 L4.89516129,14.766129 L3.44354839,14.766129 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="http://mariocarbone.net/index.php/2020/10/25/il-controller-migliore-di-sempre/#respond">Nessun commento<span class="screen-reader-text"> su Il controller migliore di sempre</span></a>						</span>
+					</li>
+					
+			</ul>
+
+		</div>
+
+		
+	</div>
+
+</header>
+
+	<figure class="featured-media">
+
+		<div class="featured-media-inner section-inner">
+
+			<img width="1200" height="2010" src="http://mariocarbone.net/wp-content/uploads/2020/10/controller-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="http://mariocarbone.net/wp-content/uploads/2020/10/controller-scaled.jpg 1528w,http://mariocarbone.net/wp-content/uploads/2020/10/controller-179x300.jpg 179w,http://mariocarbone.net/wp-content/uploads/2020/10/controller-611x1024.jpg 611w,http://mariocarbone.net/wp-content/uploads/2020/10/controller-768x1287.jpg 768w,http://mariocarbone.net/wp-content/uploads/2020/10/controller-917x1536.jpg 917w,http://mariocarbone.net/wp-content/uploads/2020/10/controller-1222x2048.jpg 1222w" sizes="(max-width: 1200px) 100vw, 1200px">
+		</div>
+
+	</figure>
+
+	
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			
+<p>Controller della sony molto bello</p>
+
+		</div>
+
+	</div>
+
+	<div class="section-inner">
+		
+	</div>
+
+	
+	<nav class="pagination-single section-inner" aria-label="Articolo" role="navigation">
+
+		<hr class="styled-separator is-style-wide" aria-hidden="true">
+
+		<div class="pagination-single-inner">
+
+			
+				<a class="previous-post" href="http://mariocarbone.net/index.php/2020/10/25/ciao-mondo/">
+					<span class="arrow" aria-hidden="true">&larr;</span>
+					<span class="title"><span class="title-inner">Ciao mondo!</span></span>
+				</a>
+
+				
+				<a class="next-post" href="http://mariocarbone.net/index.php/2020/10/25/produttivita-consigli/">
+					<span class="arrow" aria-hidden="true">&rarr;</span>
+						<span class="title"><span class="title-inner">Produttivit&aacute; consigli</span></span>
+				</a>
+				
+		</div>
+
+		<hr class="styled-separator is-style-wide" aria-hidden="true">
+
+	</nav>
+
+	
+		<div class="comments-wrapper section-inner">
+
+				<div id="respond" class="comment-respond">
+		<h2 id="reply-title" class="comment-reply-title">Lascia un commento <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://mariocarbone.net/myblog/index.php/2020/10/25/il-controller-migliore-di-sempre/#respond" style="display:none;">Annulla risposta</a></small></h2><form action="http://mariocarbone.net/wp-comments-post.php" method="post" id="commentform" class="section-inner thin max-percentage" novalidate><p class="comment-notes"><span id="email-notes">Il tuo indirizzo email non sar&agrave; pubblicato.</span> I campi obbligatori sono contrassegnati <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Commento</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Nome <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Sito web</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Do il mio consenso affinch&eacute; un cookie salvi i miei dati  (nome, email, sito web) per il prossimo commento.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Commento all'articolo"> <input type="hidden" name="comment_post_ID" value="70" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p></form>	</div>
+	
+		</div>
+
+		
+</article>
+
+</main>
+
+
+	<div class="footer-nav-widgets-wrapper header-footer-group">
+
+		<div class="footer-inner section-inner">
+
+			
+			
+				<aside class="footer-widgets-outer-wrapper" role="complementary">
+
+					<div class="footer-widgets-wrapper">
+
+						
+							<div class="footer-widgets column-one grid-item">
+								<div class="widget widget_search"><div class="widget-content"><form role="search" method="get" class="search-form" action="http://mariocarbone.net/">
+	<label for="search-form-2">
+		<span class="screen-reader-text">Cerca:</span>
+		<input type="search" id="search-form-2" class="search-field" placeholder="Cerca &hellip;" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="Cerca">
+</form>
+</div></div>
+		<div class="widget widget_recent_entries"><div class="widget-content">
+		<h2 class="widget-title subheading heading-size-3">Articoli recenti</h2>
+		<ul>
+											<li>
+					<a href="http://mariocarbone.net/index.php/2020/10/25/motherboardsss/">Motherboardsss</a>
+									</li>
+											<li>
+					<a href="http://mariocarbone.net/index.php/2020/10/25/droni-che-belli/">Droni che belli!</a>
+									</li>
+											<li>
+					<a href="http://mariocarbone.net/index.php/2020/10/25/produttivita-consigli/">Produttivit&aacute; consigli</a>
+									</li>
+											<li>
+					<a href="http://mariocarbone.net/index.php/2020/10/25/il-controller-migliore-di-sempre/" aria-current="page">Il controller migliore di sempre</a>
+									</li>
+											<li>
+					<a href="http://mariocarbone.net/index.php/2020/10/25/ciao-mondo/">Ciao mondo!</a>
+									</li>
+					</ul>
+
+		</div></div><div class="widget widget_recent_comments"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">Commenti recenti</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href="https://wordpress.org/" rel="external nofollow ugc" class="url">Un commentatore di WordPress</a></span> su <a href="http://mariocarbone.net/?elementor_library=kit-predefinito/#comment-1">Kit predefinito</a></li></ul></div></div>							</div>
+
+						
+						
+							<div class="footer-widgets column-two grid-item">
+								<div class="widget widget_archive"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">Archivi</h2>
+			<ul>
+					<li><a href="http://mariocarbone.net/index.php/2020/10/">Ottobre 2020</a></li>
+			</ul>
+
+			</div></div><div class="widget widget_categories"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">Categorie</h2>
+			<ul>
+					<li class="cat-item cat-item-1"><a href="http://mariocarbone.net/index.php/category/senza-categoria/">Senza categoria</a>
+</li>
+			</ul>
+
+			</div></div><div class="widget widget_meta"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">Meta</h2>
+		<ul>
+						<li><a href="http://mariocarbone.net/wp-login.php">Accedi</a></li>
+			<li><a href="http://mariocarbone.net/index.php/feed/">Inserimenti feed</a></li>
+			<li><a href="http://mariocarbone.net/index.php/comments/feed/">Feed dei commenti</a></li>
+
+			<li><a href="https://it.wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</div></div>							</div>
+
+						
+					</div>
+
+				</aside>
+
+			
+		</div>
+
+	</div>
+
+
+
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class="footer-width-fixer">		<div data-elementor-type="wp-post" data-elementor-id="114" class="elementor elementor-114" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-8c0d822 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8c0d822" data-element_type="section" data-settings='{"background_background":"classic"}'>
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d81e551" data-id="d81e551" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b3a0aa8 elementor-widget elementor-widget-heading" data-id="b3a0aa8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Link Utili</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8bcf6a9 elementor-align-center elementor-widget elementor-widget-button" data-id="8bcf6a9" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">FAQ</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d4ea534 elementor-align-center elementor-widget elementor-widget-button" data-id="d4ea534" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Privacy &amp; Cookie Policy</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-232d5d1" data-id="232d5d1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ff26c65 elementor-widget elementor-widget-heading" data-id="ff26c65" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Link Utili</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4f38072 elementor-align-center elementor-widget elementor-widget-button" data-id="4f38072" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Privacy and Cookie Policy</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b073927 elementor-align-center elementor-widget elementor-widget-button" data-id="b073927" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Privacy and Cookie Policy</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f0c0bfc" data-id="f0c0bfc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-65757a6 elementor-widget elementor-widget-heading" data-id="65757a6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Servizi</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-750ad5f elementor-align-center elementor-widget elementor-widget-button" data-id="750ad5f" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">SVILUPPO WEB &amp; SOFTWARE</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d094b94 elementor-align-center elementor-widget elementor-widget-button" data-id="d094b94" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">GRAFICA &amp; WEB DESIGN</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5385b74 elementor-align-center elementor-widget elementor-widget-button" data-id="5385b74" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">DOMOTICA</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7dfcda3 elementor-section-height-min-height elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="7dfcda3" data-element_type="section" data-settings='{"background_background":"classic"}'>
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ebce2be" data-id="ebce2be" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c9fefca elementor-widget elementor-widget-text-editor" data-id="c9fefca" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>&copy; Mario Carbone &ndash; 2020</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-014ae92" data-id="014ae92" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6fdd4f9 elementor-widget elementor-widget-image" data-id="6fdd4f9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="http://mariocarbone.net/wp-content/uploads/elementor/thumbs/WHITEMC-e1603652049104-oxg6stqziu84azs6hahrsnd21z3u8c718kdwvqfgxg.png" title="WHITEMC" alt="WHITEMC">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e70b3c1" data-id="e70b3c1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-918abbf elementor-shape-circle elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="918abbf" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-9a96eb0" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-afb2078" href="http://instagram.com/mario.carbone" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-4c0eb08" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-d8a7781" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-5f27094" href="https://www.linkedin.com/in/mariocarbone/" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i class="fab fa-linkedin"></i>					</a>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</div>		</footer>
+	<script id="stickThis-js-extra">
+var sticky_anything_engage = {"element":"elementor-section elementor-top-section elementor-element elementor-element-13776f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default","topspace":"0","minscreenwidth":"0","maxscreenwidth":"999999","zindex":"1","legacymode":"","dynamicmode":"","debugmode":"","pushup":"","adminbar":"1"};
+</script>
+<script src="http://mariocarbone.net/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=2.1.1" id="stickThis-js"></script>
+<script src="http://mariocarbone.net/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.5.3" id="hfe-frontend-js-js"></script>
+<script src="http://mariocarbone.net/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.12" id="elementor-frontend-modules-js"></script>
+<script src="http://mariocarbone.net/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4" id="jquery-ui-position-js"></script>
+<script src="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
+<script src="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+<script src="http://mariocarbone.net/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.12" id="share-link-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Condividi su Facebook","shareOnTwitter":"Condividi su Twitter","pinIt":"Pinterest","download":"Download","downloadImage":"Scarica immagine","fullscreen":"Schermo intero","zoom":"Zoom","share":"Condividi","playVideo":"Riproduci video","previous":"Precedente","next":"Successivo","close":"Chiudi"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.12","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"http:\/\/mariocarbone.net\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":70,"title":"Il%20controller%20migliore%20di%20sempre%20%E2%80%93%20Mario%20Carbone","excerpt":"","featuredImage":"http:\/\/mariocarbone.net\/wp-content\/uploads\/2020\/10\/controller-scaled.jpg"}};
+</script>
+<script src="http://mariocarbone.net/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.12" id="elementor-frontend-js"></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	</div></body>
+</html>
